@@ -5,7 +5,6 @@ import { Filter } from 'components/Filter/Filter';
 import css from './App.module.css';
 
 import { Notify } from 'notiflix';
-import { stringify } from 'uuid';
 Notify.init({ showOnlyTheLastOne: true, clickToClose: true });
 
 export class App extends React.Component {
