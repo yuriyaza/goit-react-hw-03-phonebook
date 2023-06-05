@@ -19,8 +19,8 @@ export class App extends React.Component {
     filter: '',
   };
 
-  componentDidMount() { 
-    const savedContacts = JSON.parse(localStorage.getItem('contacts'))
+  componentDidMount() {
+    const savedContacts = JSON.parse(localStorage.getItem('contacts'));
     if (savedContacts) {
       this.setState({ contacts: savedContacts });
     }
